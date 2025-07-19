@@ -41,5 +41,5 @@ Features may change rapidly. **
 💻👷‍♂️🛠️
 
 **Proyek ini belum dipublikasikan secara resmi dan belum siap untuk digunakan di lingkungan produksi.  
-Segala fitur dapat berubah sewaktu-waktu.**  
+Segala fitur dapat berubah sewaktu-waktu. akan di rilis pada Tahun 2030 mendatang**  
 💻👷‍♂️🛠️
