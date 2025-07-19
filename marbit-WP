@@ -1,0 +1,78 @@
+==================================
+Komunikasi Nirkabel Tanpa Internet
+==================================
+
+Di era digital modern, koneksi internet telah menjadi tulang punggung hampir seluruh bentuk komunikasi, 
+mulai dari pesan instan, panggilan suara, hingga konferensi video. Namun, tidak semua wilayah memiliki akses internet
+yang stabil dan dapat diandalkan. Kondisi seperti bencana alam, lokasi geografis yang terpencil, atau lingkungan
+dengan pembatasan jaringan dapat menyebabkan ketiadaan konektivitas.
+Di tengah ketergantungan global terhadap infrastruktur digital yang kompleks, MARBIT muncul sebagai solusi alternatif.
+MARBIT (Mesh and Radio-Based Interconnected Technology) adalah aplikasi komunikasi inovatif yang memungkinkan pengguna
+untuk saling berkomunikasi tanpa menggunakan internet sama sekali.
+MARBIT memanfaatkan teknologi Bluetooth dan arsitektur jaringan node peer-to-peer (P2P),
+memungkinkan komunikasi yang sepenuhnya lokal, aman, dan mandiri. Dengan MARBIT, pesan teks, panggilan suara,
+dan bahkan video call dapat dilakukan langsung antar perangkat dalam jangkauan jaringan, 
+tanpa perlu menara seluler, Wi-Fi, atau jaringan ISP.
+
+Menyediakan platform komunikasi real-time yang berfungsi tanpa koneksi internet.
+Membangun jaringan komunikasi lokal berbasis perangkat pengguna yang dinamis dan otomatis.
+Memberikan solusi komunikasi pribadi dan aman yang dapat digunakan dalam kondisi darurat atau keterbatasan akses.
+Visi MARBIT adalah menciptakan sistem komunikasi:
+Terdesentralisasi dan otonom
+Tahan terhadap gangguan infrastruktur
+Adaptif terhadap lingkungan dengan keterbatasan teknologi
+Aman dan dapat dipercaya
+
+Teknologi Inti
+Bluetooth Mesh Networking
+Bluetooth digunakan untuk menciptakan jaringan mesh, di mana setiap perangkat pengguna (node) berfungsi
+sebagai simpul yang dapat mengirim, menerima, dan meneruskan pesan ke node lain. Ini memungkinkan komunikasi
+melampaui batas jangkauan langsung Bluetooth melalui teknik multi-hop, memperluas area cakupan komunikasi secara signifikan.
+P2P
+Dengan tidak bergantung pada server pusat, komunikasi dalam MARBIT bersifat peer-to-peer. Node-node berkomunikasi 
+langsung satu sama lain, menciptakan jaringan ad-hoc yang otomatis terbentuk saat perangkat berada dalam jangkauan. 
+Pendekatan ini meningkatkan keandalan, privasi, dan daya tahan jaringan.
+SHA-256
+MARBIT menerapkan sistem keamanan lokal yang menggunakan algoritma hash SHA-256 untuk memastikan integritas pesan. 
+Selain itu, enkripsi end-to-end dilakukan di perangkat pengguna tanpa menyimpan data di server mana pun, 
+menjaga privasi dan keamanan komunikasi sepenuhnya dalam kendali pengguna.
+
+Fitur Utama MARBIT
+Chat Offline        : Kirim dan terima pesan teks tanpa koneksi data atau Wi-Fi.
+Panggilan Suara     : Komunikasi suara real-time antar node menggunakan protokol lokal.
+Video Call          : Komunikasi video peer-to-peer dengan kompresi data untuk efisiensi.
+Mesh Routing        : Jaringan otomatis yang mampu menyambungkan perangkat melalui banyak hop.
+Privasi & Keamanan  : Tidak ada data yang keluar dari perangkat tanpa izin.
+Kompatibilitas Luas : Berfungsi di berbagai perangkat tanpa perlu infrastruktur tambahan.
+
+Arsitektur Sistem
+[Node A] <--Bluetooth--> [Node B] <--Bluetooth--> [Node C]
+Setiap perangkat dalam jaringan berfungsi sebagai node aktif yang dapat berperan sebagai pengirim, 
+penerima, atau relay pesan. Komunikasi tidak memerlukan jaringan eksternal seperti seluler atau Wi-Fi, 
+dan seluruh proses dilakukan secara otomatis saat perangkat berada dalam jangkauan Bluetooth.
+
+MARBIT vs WhatsApp
+| Aspek            | MARBIT                    | WhatsApp                  |
+|------------------|---------------------------|---------------------------|
+| Koneksi          | Tanpa Internet            | Butuh Internet            |
+| Server           | Tanpa server pusat        | Terpusat (Meta)           |
+| Jangkauan        | Lokal + Mesh Multi-Hop    | Global via internet       |
+| Keamanan         | Lokal + SHA-256           | End-to-End via server     |
+| Ketergantungan   | Tidak tergantung ISP      | Tergantung koneksi data   |
+| Fungsi Offline   | Tetap aktif               | Tidak bisa digunakan      |
+     Use Case Ideal
+Situasi bencana alam, untuk evakuasi dan koordinasi tanpa infrastruktur.
+Pelatihan militer atau skenario survival yang membutuhkan komunikasi tertutup.
+Sekolah, kampus, dan komunitas yang ingin menghindari ketergantungan koneksi data.
+Acara besar seperti festival atau konferensi di area dengan sinyal lemah.
+Komunitas pedesaan dan daerah terpencil yang tidak terjangkau jaringan internet.
+    Masa Depan MARBIT
+Integrasi teknologi komunikasi jarak jauh seperti LoRa.
+Sistem pengiriman file dan media tanpa koneksi internet.
+Dukungan algoritma routing pintar (AODV, DSR, dll).
+Ekspansi ke berbagai sistem operasi dan platform perangkat keras.
+Komunikasi hybrid (Bluetooth + Wi-Fi Direct + NFC).
+MARBIT adalah jawaban terhadap kebutuhan akan komunikasi yang independen, fleksibel, dan aman. 
+Dengan pendekatan teknologi yang mengedepankan kemandirian pengguna dan kebebasan dari infrastruktur pusat, 
+MARBIT menjadi alat komunikasi masa depan — ideal untuk kondisi darurat, penggunaan komunitas, 
+dan mereka yang menghargai privasi serta kebebasan digital.
